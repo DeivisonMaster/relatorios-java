@@ -22,7 +22,7 @@ public class GeradorDeRelatorios {
 	public void geraRelatorios(String arquivoJasper, Connection conexao, Map<String, Object> parametros) {
 		try {
 
-			// JasperCompileManager.compileReportToFile("jasper/relatorio_movimentacoes.jrxml");
+			//JasperCompileManager.compileReportToFile("jasper/relatorio_movimentacoes.jrxml");
 
 			// carrega o relatorio e parametros
 			JasperPrint jasperPrint = JasperFillManager.fillReport(arquivoJasper, parametros,
